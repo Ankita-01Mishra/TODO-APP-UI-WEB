@@ -109,7 +109,7 @@ input[type=checkbox] {
     margin-top: 15px; 
     /* display: inline; */
     float: left;
-    margin-left: 482px;
+    margin-left: 410px;
     /* left:50px; */
     background-color: black;
 
@@ -129,7 +129,7 @@ input[type=checkbox] {
 #newtask_3{
     float: right;
     /* margin-right: 40px; */
-    margin-right: 390px;
+    margin-right: 330px;
     margin-top: 20px;
     /* margin-bottom: 50px; */
     color: gray;
@@ -138,7 +138,7 @@ input[type=checkbox] {
     margin: auto;
 } */
 #index3item1{
-    margin-top: 110px;
+    margin-top: 156px;
 }
 .boxindex2{
     height: 606px;
@@ -234,3 +234,40 @@ input[type=checkbox] {
     cursor: pointer;
     
  }
+
+ @media only screen and (max-width: 1200px) and (min-width: 1000px){
+  #popup1{
+    /* display: block; */
+    position: absolute;
+    top: 300px;
+    left: 320px;
+  }
+  #index3item1{
+    width: 985px;
+    margin-left: -308px;
+  }
+
+ }
+ @media only screen and (max-width: 1500px) and (min-width: 1200px){
+  #popup1{
+    /* display: block; */
+    position: absolute;
+    top: 300px;
+    left: 320px;
+  }
+  /* #index3item1{
+    width: 985px;
+    margin-left: -308px;
+  } */
+
+ }
+ @media only screen and (max-width: 1700px) and (min-width: 1500px){
+  #popup1{
+    /* display: block; */
+    position: absolute;
+    top: 300px;
+    left: 420px;
+  }
+
+ }
+ 
