@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> DemoTodo App UI Web</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="i1" style="filter: blur(2px);">
+    <!-- <div class="container"> -->
+    <h1>Tasks <span style="color: aqua;">List</span></h1>
+    <div class="box" id="flex">
+    <span id="newtask" style="font-size: 20px;">Add New Task</span>
+     <button class="btn" style="cursor: default;" ><i class="fa fa-plus"></i></button>
+
+    <div class="container1 containerindex2" id="flex1">
+        <div class="item" id="item1" style="box-shadow: none;">
+            <a href="index3.html" style="text-decoration: none;">
+        <h3 class="headings">Trip to Paris</h3></a>
+        <hr>
+        <input type="checkbox" name="Visit Church" checked>
+        <label for="Visit Church" class="checking" style="text-decoration: line-through;">Visit Church 
+            <span class="checkmark"></span>
+        </label><br><br>
+        <input type="checkbox" name="shopping" id="shopping">
+        <label for="shopping">Shopping</label>
+    </div>
+
+        <div class="item" id="item2" style="box-shadow: none;">
+        <h3 class="headings">My To Do List</h3>
+        <hr>
+        <input type="checkbox" name="Visit Supermarket" id="Visit Supermarket" checked>
+        <label for="Visit Supermarket" style="text-decoration: line-through;">Visit Supermarket</label><br><br>
+        <input type="checkbox" name="Buy Vegetables" id="Buy Vegetables">
+        <label for="shopping">Buy Vegetables</label>
+    </div>
+        <div class="item" id="item3" style="box-shadow: none;">
+        <h3 class="headings">Movies I will watch</h3>
+        <hr>
+        <input type="checkbox" name="Stranger Things 4" id="Stranger Things 4" checked>
+        <label for="Stranger Things 4" style="text-decoration: line-through;">Stranger Things 4</label><br><br>
+        <input type="checkbox" name="Avengers Endgame" id="Avengers Endgame">
+        <label for="Avengers Endgame">Avengers Endgame</label>
+    </div>
+        <div class="item" id="item4" style="box-shadow: none;">
+        <h3 class="headings">Daily Morning Routine for...</h3>
+        <hr>
+        <input type="checkbox" name="Wake up at 6 AM" id="Wake up at 6 AM" checked>
+        <label for="Wake up at 6 AM" style="text-decoration: line-through;">Wake up at 6 AM</label> <br><br>
+        <input type="checkbox" name="Sleep at 10pm" id="Sleep at 10pm">
+        <label for="Sleep at 10pm">Sleep at 10pm</label>
+    </div>
+        <div class="item" id="item5" style="box-shadow: none;">
+        <h3 class="headings">Books to Read</h3>
+        <hr>
+        <input type="checkbox" name="Design of Everyday" id="Design of Everyday" checked>
+        <label for="Design of Everyday" style="text-decoration: line-through;">Design of Everyday</label><br><br>
+        <input type="checkbox" name="Alchemist" id="Alchemist">
+        <label for="Alchemist">Alchemist</label>
+    </div>
+        <div class="item" id="item6" style="box-shadow: none;">
+    </div>
+    </div>
+</div>
+</div>
+
+<div id="popup1" class="overlay">
+	<div class="popup">
+		<a class="close" href="index.html">&times;</a>
+		<h2>Add New Task</h2>
+        <hr><br>
+        <div class="ip">
+        <input type="text" name="text" id="cplusplus" placeholder="Learn C++">
+    </div><br><br>
+		<!-- <div class="content">
+			Thank to pop me out of that button, but now i'm done so you can close this window.
+		</div> -->
+        <a href="#"><button class="btnpop1"><i class="fa fa-plus"> Add Task</i></button></a>
+	</div>
+</div>
+</body>
+</html>
